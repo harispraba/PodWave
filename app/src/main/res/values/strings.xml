@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">PodWave</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Main Menu-->
+    <string name="main_recent_tape">Recent</string>
+    <string name="main_folder_view">Folders</string>
+    <string name="main_user_profile">Profile</string>
+    <string name="action_menu_create_folder">New Folder</string>
+
+    <!--Labels-->
+    <string name="label_create_note">Create Voice Note</string>
+
+    <!--Notes Default-->
+    <string name="no_title">Untitled</string>
+    <string name="no_desc">No description added.</string>
+
+    <!--Create Note-->
+    <string name="input_title">Title</string>
+    <string name="input_description">Description</string>
+    <string name="input_record_cancel">Cancel</string>
+    <string name="record_timer_default">00:00:00</string>
+
+    <!--Create Folder-->
+    <string name="dialog_positive">OK</string>
+    <string name="dialog_negative">Cancel</string>
+    <string name="dialog_input_hint">Folder Name</string>
+
+    <string name="empty_content_description" />
+
+    <!--Folder Select-->
+    <string name="label_folder_select">Select Folder</string>
+
+    <!--LOGIN MENNU-->
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="name_text">Full Name</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="separator_text">or sign in with</string>
+    <string name="btn_login_google">Sign In With Google</string>
+    <string name="btn_link_google">Link With Google</string>
+    <string name="belum_punya_akun">Doesn\'t have account yet?</string>
+    <string name="sign_up_now">Sign Up</string>
+    <string name="term_text">Dengan menggunakan aplikasi ini, Anda telah menyetujui aturan penggunaan dan kebijakan.</string>
+    <string name="label_sign_up">Sign Up</string>
+    <string name="label_terms_condition">Aturan dan Kebijakan</string>
+    <string name="label_forgot_password">Reset Password</string>
+    <string name="ket_forgot_pass">Link reset password akan dikirim melalui email. Kami tidak dapat melihat password lama Anda, sehingga Anda harus membuat password baru.</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="text_detail_skip_login">Doesn\'t want to login now?</string>
+    <string name="text_skip_login">Skip Sign In</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Email tidak valid</string>
+    <string name="error_email_used">Email sudah terdaftar</string>
+    <string name="error_invalid_password">Password terlalu pendek</string>
+    <string name="error_empty_password">Password tidak boleh kosong</string>
+    <string name="error_incorrect_password">Password salah</string>
+    <string name="error_weak_password">Password terlalu lemah</string>
+    <string name="error_field_required">Bagian ini harus diisi</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="user_anon">Anonymous</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_title">Sample Title</string>
+    <string name="sample_desc">This is a sample description.</string>
+
+    <!--<string name="default_web_client">985653283119-eeeojk9tjmpsudda995lmnn2qdb62he4.apps.googleusercontent.com</string>-->
+    <string name="default_web_client">679049820918-mb9s0doofseeep367i48pld0d755p082.apps.googleusercontent.com</string>
+</resources>

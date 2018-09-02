@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0091ea</color>
+    <color name="colorPrimaryDark">#1565c0</color>
+    <color name="colorAccent">#b71c1c</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#757575</color>
+    <color name="greyInputField">#e0e0e0</color>
+    <color name="greyShadow">#cfd8dc</color>
+    <color name="textDark">#de000000</color>
+    <color name="textGrey">#99000000</color>
+
+    <color name="google_login_text">#90000000</color>
+    <color name="google_red">#dd4b39</color>
+    <color name="google_blue">#4284f3</color>
+
+    <color name="cloud_saved">#388e3c</color>
+    <color name="cloud_not_saved">#616161</color>
+    <color name="cloud_unavailable">#b71c1c</color>
+</resources>

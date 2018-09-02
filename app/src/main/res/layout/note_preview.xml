@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/noteIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:tint="@color/grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_menu_record" />
+
+    <TextView
+        android:id="@+id/noteTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="bottom"
+        android:minHeight="28dp"
+        android:text="@string/sample_title"
+        android:textColor="@color/textDark"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/noteIcon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/noteDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="bottom"
+        android:minHeight="20dp"
+        android:text="@string/sample_desc"
+        android:textColor="@color/textGrey"
+        android:textSize="14sp"
+        android:maxLines="1"
+        android:maxLength="43"
+        app:layout_constraintStart_toEndOf="@id/noteIcon"
+        app:layout_constraintTop_toBottomOf="@id/noteTitle" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="92dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--app:srcCompat="@drawable/rounded_box_no_stroke" />-->
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:padding="0dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/rounded_box_no_stroke"
+        app:layout_constraintStart_toEndOf="@id/noteIcon"
+        app:layout_constraintTop_toBottomOf="@id/noteDesc">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/ic_menu_folder"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <TextView
+            android:id="@+id/folderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/sample_title"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginStart="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/icon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label"
+        app:srcCompat="@color/greyShadow" />
+</android.support.constraint.ConstraintLayout>
